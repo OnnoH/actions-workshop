@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Log repo name to console
-        run: echo 'Repository name = $GITHUB_REPOSITORY'
+        run: echo "Repository name = ${GITHUB_REPOSITORY}"
