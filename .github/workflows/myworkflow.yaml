@@ -36,9 +36,9 @@ jobs:
         id: aci-deploy
         with:
           resource-group: githubactions
-          dns-name-label: wallofzen3
+          dns-name-label: wallofzen
           image: onnoh/wallofzen:${{ github.sha }}
-          name: ohwallofzen3
+          name: ohwallofzen
           location: "west europe"
           environment-variables: BASE_URL=https://devopsdaysams.azurewebsites.net/api/AddToWall
 
